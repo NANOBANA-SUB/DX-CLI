@@ -1,0 +1,12 @@
+[package]
+name = "dx-cli"
+version = "0.2.0"
+edition = "2021"
+description = "DXLib project manager for Windows"
+license = "MIT"
+
+[[bin]]
+name = "dx"
+path = "src/main.rs"
+
+[dependencies]
